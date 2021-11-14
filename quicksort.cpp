@@ -31,5 +31,13 @@ void quicksort(int array[], int low, int last){
     }
 }
 
+void printArray(int array[], int size) 
+{ 
+    int i; 
+    for (i = 0; i < size; i++) 
+        cout << array[i] << " "; 
+    cout << endl; 
+} 
+
 //need driver for test, maybe a print function to make it easy
 
