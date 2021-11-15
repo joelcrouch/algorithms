@@ -25,7 +25,7 @@ class tree{
         int build(node * & root, int toAdd);
         bool display();
         bool display(node * root);
-
+        void removeAll(const node * & root);
     private:
         node *root;
 }
