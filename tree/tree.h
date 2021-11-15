@@ -28,9 +28,4 @@ class tree{
 
     private:
         node *root;
-
-
-
-
-
 }
