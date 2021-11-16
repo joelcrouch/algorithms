@@ -40,4 +40,11 @@ void printArray(int array[], int size)
 } 
 
 //need driver for test, maybe a print function to make it easy
-
+int main(){
+    int arr={12, 45, 99, 65, 89,34, 103, 22,21, 18, 73,88};
+    int size= sizeof(arr)/sizeof(arr[0]);//size==high as well
+    printArray(arr, size);//unsorted
+    quicksort(arr, 0, size);
+    printArray(arr, size);//sorted
+    return 0;
+}
